@@ -20,4 +20,4 @@
 - [x] Provide opt-in browser notifications for supported mining/payout events; notifications must be requested only following a user action and degrade gracefully when unavailable or denied.
 
 ## GitHub delivery
-- [ ] Deliver the working website code in a new GitHub repository named `crypto` on the user's account, using the authorized repository-connection flow and preserving the Manus project checkpoint history.
+- [x] Deliver the working website code in a new GitHub repository named `crypto` on the user's account, using the authorized repository-connection flow and preserving the Manus project checkpoint history.
