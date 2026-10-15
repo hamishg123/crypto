@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "check": "node --check server.mjs && node --check public/app.js && node --check public/core.js && node --check public/hash-worker.js && node --test"
+    "pages:sync": "node scripts/sync-pages.mjs",
+    "check": "node --check server.mjs && node --check scripts/sync-pages.mjs && node --check public/app.js && node --check public/core.js && node --check public/hash-worker.js && node --test"
   }
 }

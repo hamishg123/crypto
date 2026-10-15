@@ -9,6 +9,7 @@
 - [x] Use conservative resource defaults and adjustable CPU/resource-use control with safeguards to keep the interface responsive.
 - [x] Show session hash rate, accepted/rejected work, elapsed time, estimated earnings, CPU load, and connection state honestly; clearly distinguish a local benchmark or simulation from network mining, pool shares, and real earnings whenever real mining is not configured.
 - [x] Provide responsive error, unsupported-browser, thermal/performance-warning, disconnected, and stopped states.
+- [ ] Perform actual RandomX mining and submit shares to an explicitly configured, approved pool/bridge; only show accepted/rejected shares or payout information when verified by that service. Keep this open until a compatible bridge and pool are authorized and operational.
 
 ## Wallet and payout status
 - [x] Let users select cryptocurrency/network and enter a public wallet address; validate the format, confirm the destination, mask it after linking, and allow edit and unlink actions.
@@ -21,3 +22,4 @@
 
 ## GitHub delivery
 - [x] Deliver the working website code in a new GitHub repository named `crypto` on the user's account, using the authorized repository-connection flow and preserving the Manus project checkpoint history.
+- [ ] Serve the app at `https://hamishg123.github.io/crypto/` with all HTML, CSS, JavaScript, worker, and favicon paths resolving under the `/crypto/` repository subpath; the URL must render the app rather than GitHub's README.

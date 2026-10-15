@@ -73,7 +73,7 @@ function updateMetrics() {
 
 function notify(title, body) {
   if (notificationEnabled && 'Notification' in window && Notification.permission === 'granted') {
-    try { new Notification(title, { body, icon: '/brand.svg', tag: 'fieldnote-bench' }); } catch { /* Browser may block notifications in this context. */ }
+    try { new Notification(title, { body, icon: new URL('./brand.svg', import.meta.url).href, tag: 'fieldnote-bench' }); } catch { /* Browser may block notifications in this context. */ }
   }
 }
 

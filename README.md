@@ -18,6 +18,12 @@ The telemetry reports local hashes and a local rate. Network shares and earnings
 
 An optional manually entered public receiving address is shape-checked, shown in a confirmation dialog, and stored in `localStorage` on the current browser profile. Only Monero, Bitcoin, and Litecoin mainnet address formats are supported. Validation does not verify checksum, ownership, network acceptance, or payout compatibility. The prototype does not connect to wallet software, request wallet permissions, or send an address to a server. Never enter a private key or recovery phrase.
 
+## GitHub Pages
+
+The Pages site is served at [hamishg123.github.io/crypto](https://hamishg123.github.io/crypto/). GitHub Pages serves static files; it does not host a mining pool bridge or make this prototype a real miner. The current app deliberately performs only the local SHA-256 benchmark described above.
+
+The source page is `public/index.html`. After changing it, run `npm run pages:sync` to regenerate the repository-root `index.html` with asset URLs that work beneath `/crypto/`. The static project checks verify those paths.
+
 ## Run locally
 
 Requires Node.js 22 or newer; no package installation is needed.
