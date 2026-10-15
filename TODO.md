@@ -22,4 +22,4 @@
 
 ## GitHub delivery
 - [x] Deliver the working website code in a new GitHub repository named `crypto` on the user's account, using the authorized repository-connection flow and preserving the Manus project checkpoint history.
-- [ ] Serve the app at `https://hamishg123.github.io/crypto/` with all HTML, CSS, JavaScript, worker, and favicon paths resolving under the `/crypto/` repository subpath; the URL must render the app rather than GitHub's README.
+- [x] Serve the app at `https://hamishg123.github.io/crypto/` with all HTML, CSS, JavaScript, worker, and favicon paths resolving under the `/crypto/` repository subpath; the URL must render the app rather than GitHub's README.
